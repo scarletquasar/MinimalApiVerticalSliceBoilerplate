@@ -1,0 +1,6 @@
+@MinimalApiVerticalSliceBoilerplate_HostAddress = http://localhost:5278
+
+GET {{MinimalApiVerticalSliceBoilerplate_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

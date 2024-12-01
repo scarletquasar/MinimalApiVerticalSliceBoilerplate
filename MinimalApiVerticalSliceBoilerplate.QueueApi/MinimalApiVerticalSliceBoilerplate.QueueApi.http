@@ -1,0 +1,6 @@
+@MinimalApiVerticalSliceBoilerplate.QueueApi_HostAddress = http://localhost:5197
+
+GET {{MinimalApiVerticalSliceBoilerplate.QueueApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

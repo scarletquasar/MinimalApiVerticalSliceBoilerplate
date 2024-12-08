@@ -31,13 +31,13 @@ namespace MinimalApiVerticalSliceBoilerplate.Shared.Models.Financial
         [JsonPropertyName("id")]
         public Guid? PublicId { get; } = Guid.NewGuid();
 
-        [JsonPropertyName("from_id")]
+        [JsonPropertyName("from_wallet_id")]
         [Required]
-        public Guid? FromId { get; set; }
+        public Guid? FromWalletId { get; set; }
 
-        [JsonPropertyName("to_id")]
+        [JsonPropertyName("to_wallet_id")]
         [Required]
-        public Guid? ToId { get; set; }
+        public Guid? ToWalletId { get; set; }
 
         [JsonPropertyName("amount")]
         [Required]
@@ -45,5 +45,8 @@ namespace MinimalApiVerticalSliceBoilerplate.Shared.Models.Financial
 
         [JsonPropertyName("current_status")]
         public TransactionStatus CurrentStatus { get; set; }
+
+        [JsonPropertyName("observations")]
+        public List<string>? Observations { get; set; } = [];
     }
 }

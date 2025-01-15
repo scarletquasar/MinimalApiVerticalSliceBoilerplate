@@ -1,2 +1,2 @@
-# MinimalApiVerticalSliceBoilerplate
+# Minimal API Vertical Slice Boilerplate
  
